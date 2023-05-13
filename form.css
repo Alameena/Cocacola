@@ -1,0 +1,38 @@
+h1,h3{
+    text-align: center;
+}
+
+h6{
+    display: inline;
+}
+.dada{
+    margin-left: 200px;
+}
+.tata{
+    margin-left: 200px;
+    margin-top: -1000 ;
+    
+}
+
+body{
+    background-color:rgb(203, 212, 200);
+    margin-top: 100px;
+}
+div{
+    margin: left;
+    background-color: blue;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+}
+.gggg{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: yellow;
+}
+input::placeholder{
+    padding-left: 30%;
+}

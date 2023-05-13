@@ -1,0 +1,82 @@
+body{
+    /* background-color: rgb(181, 194, 181); */
+    /* background-image: url('images/car.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1000px; */
+    
+}
+/* img{
+    style="align-items: center";
+} */
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 30%
+   
+}
+/* 
+a:active{
+    
+   color : purple
+}
+
+a:visited, #normal_link{
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:link #normal_link{
+    color: green;
+} */
+
+th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+    border-radius: 12px;
+    text-align: center;
+}
+/* th{
+    background-color: blueviolet;  
+} */
+/* td{
+    background-color: yellowgreen;
+} */
+table{
+    width: 100%;
+    border-spacing: 10px;
+}
+/* tr:nth-child() {
+    background-color: #D6EEEE;
+  } */
+/* td:nth-child(odd), th:nth-child(even) { */
+/* background-color :blueviolet */
+/* } */
+tr:hover {
+    background-color: red;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  /* li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  
+  } */
+  .nav-right{
+    float: right;
+  }

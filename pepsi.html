@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cococola Website Landing Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9.2.4/modules/scrollbar/scrollbar.min.css">
+    
+    <link rel="stylesheet" href="pepsi.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="/images/coca_cola.png" class="logo" alt=""></a>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Taste the Feeling</h2>
+                <p>Lorem ispum dolor sit ament, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore rt dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <div class="swiper-container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="images\bottle_1a.jpg"></div>
+                      <div class="swiper-slide"><img src="images\bottle_2a.jpg"></div>
+                      <div class="swiper-slide"><img src="images\bottle_3.jpg"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+                  </div>
+                </div>
+                <!-- <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images\bottle_1.jpg"></div>
+                        <div class="swiper-slide"><img src="images\bottle_2.jpg"></div>
+                        <div class="swiper-slide"><img src="images\bottle_3.jpg"></div>
+                        <div class="swiper-slide"><img src="images\bottle_4.jpg"></div>
+                        <div class="swiper-slide"><img src="images\bottle_5.jpg"></div>
+                        <div class="swiper-slide"><img src="images\bottle_6.jpg"></div>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+        <ul class="sci">
+          <li><a href="#"><img src="images\all.png"></a>/li> 
+          <li><a href="#"><img src="images\twitter.png"></a>/li> 
+          <li><a href="#"><img src="images\ins.png"></a>/li>
+        </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.2.4/swiper-bundle.min.js"></script>   
+    <!-- <script src="https://unpkg.com./swiper/swiper-bundle.min.js"></script> -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  effect: "coverflow",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+       slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+//   direction: 'horizontal',
+//   loop: true,
+
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+  // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+});
+      </script>
+</body>
+</html>
